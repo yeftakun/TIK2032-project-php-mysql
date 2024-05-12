@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage Yefta</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="icon" href="./assets/logo/miaw.ico">
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portofolio.</a>
+
+        <nav class="navbar">
+            <a href="../index.html" style="--i:1">Home</a>
+            <a href="./gallery.html" style="--i:2">Gallery</a>
+            <a href="./blog.html" style="--i:3">Blog</a>
+            <a href="./contact.html" class="active" style="--i:4">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="tabs">
+            <button class="tab" id="emailTab" onclick="toggleForm('emailForm')">E-mail</button>
+            <button class="tab" id="whatsappTab" onclick="toggleForm('whatsappForm')">WhatsApp</button>
+        </div>
+        <form id="emailForm" action="mailto:yeftakun34@gmail.com" method="post" enctype="text/plain">
+            <h3>Hubungi di E-mail</h3>
+            <input type="text" id="emailName" placeholder="Your Name" required>
+            <input type="email" id="emailAddress" placeholder="Your E-mail" required>
+            <input type="text" id="emailPhone" placeholder="Phone no." required>
+            <textarea id="emailMessage" rows="4" placeholder="How can I help you? >_<"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    
+        <form id="whatsappForm" style="display: none;">
+            <h3>Hubungi di WhatsApp</h3>
+            <input type="text" id="whatsappName" placeholder="Your Name" required>
+            <input type="email" id="whatsappEmail" placeholder="Your E-mail" required>
+            <input type="text" id="whatsappPhone" placeholder="Phone no." required>
+            <textarea id="whatsappMessage" rows="4" placeholder="How can I help you? ^_^"></textarea>
+            <button type="button" onclick="sendWhatsApp()">Send</button>
+        </form>
+    </div>
+    
+    <script src="../"></script>
+</body>
+
+
+</html>

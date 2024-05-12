@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #1f242d;
+    color: #fff;
+}
+
+.article {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.judul {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.isi-artikel {
+    margin-top: 20px;
+    color: #fff;
+}
+
+img {
+    width: 600px;
+    height: auto;
+    display: flex;
+    margin: 0 auto; /* Ini akan membuat gambar terletak di tengah secara horizontal */
+    padding: 10px;
+}
+
+
+.referensi {
+    margin-top: 20px;
+    color: #ccc;
+}
+
+.referensi a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.referensi a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h2, h3 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+iframe {
+    padding: 10px;
+}
+
+ul {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.tombol-kembali {
+    margin-top: 20px; /* Memberikan jarak atas */
+    margin-bottom: 20px;
+}
+
+.tombol-kembali a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tombol-kembali a:hover {
+    background-color: #0056b3;
+}
