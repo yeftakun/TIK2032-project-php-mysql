@@ -1,6 +1,6 @@
 <?php
 // Include connection file
-include('connection.php');
+include('../connection.php');
 
 // Initialize variables
 $title = $author = $imagePath = $sourceLink = $category = $content = '';
@@ -8,7 +8,7 @@ $publishDate = date('Y-m-d'); // Current date
 
 // Function to upload image
 function uploadImage() {
-    $targetDir = "./assets/img/";
+    $targetDir = "../assets/img/";
     $targetFile = $targetDir . basename($_FILES["image"]["name"]);
     $uploadOk = 1;
     $imageFileType = strtolower(pathinfo($targetFile,PATHINFO_EXTENSION));

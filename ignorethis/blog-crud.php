@@ -92,8 +92,8 @@
             cursor: pointer;
         }
     </style>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="./assets/logo/miaw.ico">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" href="../assets/logo/miaw.ico">
 </head>
 
 <body>
@@ -102,7 +102,7 @@
         <a href="#" class="logo">Blog CRUD.</a>
 
         <nav class="navbar">
-            <a href="./index.html" style="--i:1">Home</a>
+            <a href="../index.html" style="--i:1">Home</a>
         </nav>
     </header>
 
@@ -130,7 +130,7 @@
         <tbody>
             <?php
             // Include connection file
-            include('connection.php');
+            include('../connection.php');
 
             // Query to fetch posts from the database
             $query = "SELECT posts.*, categories.name AS category_name FROM posts 
@@ -187,8 +187,8 @@
         }
     </script>
 
-    <script src="./script/anim-type.js"></script>
-    <script src="./script/script.js"></script>
+    <script src="../script/anim-type.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 
 
