@@ -26,43 +26,43 @@
             </div>
         </nav> 
     </header>
+    
     <div class="article">
-        <!-- Add a button to go back to the blog list -->
-        <div class="tombol-kembali">
+        <div class="tombol-kembali"> <!-- Tombol kembali -->
             <a href="../blog.php">Kembali Ke Daftar Artikel</a>
         </div>
+
         <?php
-        // Include connection file
         include('../../connection.php');
 
-        // Check if post_id is provided in the URL
+        // Cek post_id yang diterima dari URL
         if (isset($_GET['id'])) {
             $post_id = $_GET['id'];
 
-            // Query to fetch the selected blog post from the database
+            // Mengambil data artikel dari database
             $query = "SELECT *, DATE_FORMAT(publish_date, '%d %M %Y') AS formatted_date FROM posts WHERE post_id = $post_id";
             $stmt = $conn->query($query);
 
-            // Check if the blog post exists
+            // Cek ketersediaan artikel
             if ($stmt->rowCount() > 0) {
                 $row = $stmt->fetch(PDO::FETCH_ASSOC);
-                // Display the title, image, and content of the selected blog post
+                // Tampilkan judul, penulis, tanggal, gambar, isi artikel, dan sumber
                 echo '<h1 class="judul">' . $row['title'] . '</h1>';
                 echo '<p class="author-credit">oleh <b>' . $row['author'] . '</b> — ' . $row['formatted_date'] . '</p>';
                 echo '<div class="img"><img src="../../assets/img/' . $row['image_path'] . '" alt="Gambar Artikel"></div>';
                 echo '<div class="isi-artikel">' . $row['content'] . '</div>';
                 echo '<div class="referensi"><p><a href="' . $row['source_link'] . '">Sumber</a></p></div>';
             } else {
-                // If the blog post does not exist, display an error message
+                // MK artikel gak ada
                 echo '<p>Artikel tidak ditemukan.</p>';
             }
         } else {
-            // If post_id is not provided in the URL, display an error message
+            // Ketika post_id tidak ditemukan
             echo '<p>Post ID tidak ditemukan.</p>';
         }
         ?>
-        <!-- Add a button to go back to the blog list -->
-        <div class="tombol-kembali">
+        
+        <div class="tombol-kembali"> <!-- Tombol kembali -->
             <a href="../blog.php">Kembali Ke Daftar Artikel</a>
         </div>
     </div>
