@@ -1,3 +1,40 @@
+<?php
+session_start();
+
+// Include connection file
+include('../connection.php');
+
+// Function to increment visitor count if not already counted in the current session
+function incrementVisitorCount() {
+    global $conn;
+    
+    // Check if visitor has not been counted in the current session
+    if (!isset($_SESSION['visitor_counted'])) {
+        $query = "UPDATE visitor_count SET count = count + 1 WHERE id = 1"; // Assuming the count is stored in the row with ID 1
+        $stmt = $conn->prepare($query);
+        $stmt->execute();
+
+        // Mark visitor as counted in the current session
+        $_SESSION['visitor_counted'] = true;
+    }
+}
+
+// Function to retrieve visitor count
+function getVisitorCount() {
+    global $conn;
+    $query = "SELECT count FROM visitor_count WHERE id = 1"; // Assuming the count is stored in the row with ID 1
+    $stmt = $conn->query($query);
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    return $row['count'];
+}
+
+// Increment visitor count
+incrementVisitorCount();
+
+// Get visitor count
+$visitorCount = getVisitorCount();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -35,6 +72,7 @@
             <img src="../assets/img/foto1.jpg">
             <h1>Yefta's Blog</h1>
             <p>This is my Blog</p>
+            <p>Total Pengunjung: <?php echo $visitorCount; ?></p> <!-- Display visitor count -->
         </div>
         
         <!-- Add dropdown menu for selecting categories -->
