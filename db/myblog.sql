@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2024 at 01:59 PM
+-- Generation Time: May 14, 2024 at 02:19 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -73,6 +73,24 @@ INSERT INTO `posts` (`post_id`, `title`, `content`, `author`, `publish_date`, `i
 (17, 'Kode Redeem FF Terbaru Hari Ini, Senin 13 Mei: Segera Klaim & Dapatkan Hadiah Item Free Fire Menarik', '<p>Penukaran kode redeem FF hanya bisa dilakukan satu kali per akun.</p>\r\n\r\n<p>Pemain Free Fire dapat menukarkan kode redeem melalui laman resmi developer gam yakni Garena.</p>\r\n\r\n<img src=\"https://asset-2.tstatic.net/tribunnews/foto/bank/images/penyesuaian-senjata-free-fire-diterapkan-mulai-2024.jpg\" alt=\"penyesuaian-senjata-free-fire-diterapkan-mulai-2024\">\r\n\r\n<p>Adanya kode redeem sendiri dilakukan untuk memanjakan para penikmat game FF. Sekaligus sebagai tanda apresiasi kepada pemainnya yang telah setia untuk memainkan gamenya.</p>\r\n\r\n<p>Mengenai kode redeem Free Fire yang valid atau benar ialah yang berisikan kombinasi 12-16 karakter huruf dan angka. Jika kode redeem FF nantinya tidak dapat ditukar, maka bisa diartikan kode itu sudah melebihi batas waktu penukaran. Atau bisa jadi kode redeem itu telah habis, sebab tiap kode memiliki batas limited dan expired.</p>\r\n\r\n<p>Pada game ini ada banyak sekali item-item keren yang bisa kalian dapatkan, entah itu dengan cara membeli Diamond atau menggunakan kode redeem. Nah bagi kalian yang suka dengan item gratisan, berikut kode redeem Free Fire yang masih aktif dan dapat ditukarkan.</p>\r\n\r\n<h2>Kode Redeem Free Fire Hari Ini, 13 Mei 2024</h2>\r\n\r\n<ul>\r\n    <li>FIRUYHGFBCNI8S7</li>\r\n    <li>FWUYEGTBRTGNBK</li>\r\n    <li>F2BN8VJNCDRK5OT</li>\r\n    <li>FGBW3REGFBI7345</li>\r\n    <li>FJ8FG7BSJU6YT3R</li>\r\n    <li>FFEV1BHUA7Q6TGH</li>\r\n    <li>FERTY9IHK6OV98U</li>\r\n    <li>FZ7YTA5Q4RED2C3</li>\r\n    <li>FVBERFJUVYTSRF4</li>\r\n    <li>F8FXTHR8KIUHWG4</li>\r\n    <li>FGT5RFVDERFVSER</li>\r\n    <li>F3BERNFJUCYTSRAF</li>\r\n    <li>F5DCV3B4N5JIG8U7</li>\r\n    <li>7L9QGZ1B4YF0MDSH</li>\r\n    <li>5V8K9C4S2P6TNRJW</li>\r\n    <li>1B3Z6G7Q0M9DS8HF</li>\r\n    <li>9C5V2K4S6P8T7R3J</li>\r\n    <li>4G1Z3Q7M0D9S6HF8</li>\r\n    <li>8C5V9K2S6P4T1R7J</li>\r\n    <li>2B6G8Q1M5D3SH0F9</li>\r\n    <li>6V3K7C9S2P4T8R1J</li>\r\n    <li>0G4Z6Q9M1D7SF3H8</li>\r\n    <li>4C9V2K6S8P0TR7J3</li>\r\n    <li>8B1G5Q3M9D6SH4F0</li>\r\n    <li>2V7K4C8S1P6TR9J5</li>\r\n    <li>5G2Z7Q0M6DS3HF8</li>\r\n    <li>1C6V9K3S7P5TR2J8</li>\r\n    <li>9B3G6Q8M2D4SF1H7</li>\r\n    <li>6V1K8C2S4P7TR9J3</li>\r\n    <li>0G5Z9Q3M7D1SF6H2</li>\r\n    <li>3C8V1K5S9P2TR6J4</li>\r\n    <li>7B0G4Q6M8D3SH9F5</li>\r\n    <li>1V6K9C3S7P4TR8J2</li>\r\n    <li>5G8Z1Q4M2DS9HF6</li>\r\n    <li>9C2V5K7S3P8TR1J6</li>\r\n    <li>0B4G7Q9M3D5SH2F8</li>\r\n</ul>\r\n\r\n<p>Hadiah dan item nantinya akan langsung ada pada akun Free Fire Anda dengan sendirinya. Jika mengalami kesulitan, coba hubungi customer service Garena. Kode redeem yang sudah melewati batas waktu (kedaluwarsa) berarti sudah tidak bisa digunakan lagi.</p>', 'Hafidh Rizky Pratama', '2024-05-13', 'epepe.jpg', 'https://www.tribunnews.com/e-sport/2024/05/13/kode-redeem-ff-terbaru-hari-ini-senin-13-mei-segera-klaim-dapatkan-hadiah-item-free-fire-menarik', 4),
 (18, 'Bos Microsoft Puji Developer RI Tumbuh Pesat, Bisa Tembus 5 Besar', '<p><strong>Jakarta, CNN Indonesia --</strong> Chairman dan CEO Microsoft Satya Nadella menyebut developer atau pengembang software di Indonesia tumbuh dengan pesat di Github. Ia memprediksi Indonesia bisa masuk lima besar pengembang terbanyak di dunia pada 2026.</p>\r\n\r\n<p>\"Di Indonesia kami melihat pertumbuhan yang luar biasa. Faktanya, selama beberapa tahun terakhir kami telah melihat pertumbuhan dua kali lipat pada pengembang perangkat lunak. Saya rasa Indonesia akan berada di posisi nomor 5 dunia pada tahun 2026,\" ujar Nadella di acara Microsoft Build: AI Day di Jakarta, Selasa (30/4).</p>\r\n\r\n<p>Nadella menyebut lebih dari 3,1 juta developer menggunakan Github yang merupakan platform pengembangan software, kolaborasi, dan inovasi milik Microsoft.</p>\r\n\r\n<p>Jumlah tersebut menjadikan Indonesia sebagai rumah bagi komunitas developer GitHub terbesar ketiga di di kawasan Asia Pasifik, setelah India dan China.</p>\r\n\r\n<p>Menurut data GitHub pada 2023, Indonesia berada pada posisi 8 dalam jumlah pengembang di platform tersebut. Namun, Indonesia diproyeksikan naik ke posisi 6 pada tahun ini, menggeser posisi Rusia dan Jerman.</p>\r\n\r\n<p>Posisi lima besar saat ini ditempati oleh Amerika Serikat (AS), India, China, Brasil, dan Inggris.</p>\r\n\r\n<p>Pada 2023, Indonesia mengalami peningkatan jumlah developer di GitHub dengan kisaran 31 persen dari tahun ke tahun (year-on-year).</p>\r\n\r\n<p>Selain itu, Indonesia juga mengalami pertumbuhan jumlah proyek kecerdasan buatan (AI) generatif publik di platform GitHub hingga 213 persen YoY pada 2023.</p>\r\n\r\n<p>Sebelumnya, Nadella resmi mengumumkan investasi Microsoft di Indonesia senilai US$1,7 miliar atau sekitar Rp27,6 triliun.</p>\r\n\r\n<p>\"Hal yang sangat ingin saya umumkan hari ini adalah perluasan pengumuman kami mengenai investasi pusat data, yaitu US$1,7 miliar untuk menghadirkan infrastruktur AI terbaru dan terhebat di Indonesia,\" ungkapnya, di acara Microsoft Build: AI Day di Jakarta, Selasa (30/4)</p>\r\n\r\n<p>Investasi ini disuntikkan ke Tanah Air selama empat tahun ke depan. Investasi tersebut diperuntukkan bagi infrastruktur cloud dan kecerdasan buatan baru di Indonesia; kesempatan pelatihan AI untuk 840 ribu orang; dan dukungan terhadap komunitas developer dalam negeri negeri.</p>\r\n\r\n<p>Sementara itu, Nadella juga mengumumkan komitmen Microsoft untuk memberikan peluang untuk meningkatkan keterampilan AI bagi 2,5 juta orang di negara-negara ASEAN hingga 2025. Pelatihan dan dukungan ini akan diberikan melalui kemitraan dengan pemerintah, organisasi nirlaba dan korporat, serta komunitas di Indonesia, Malaysia, Filipina, Thailand, serta Vietnam.</p>\r\n\r\n', 'CNN Indonesia', '2024-05-13', 'microsoft.jpeg', 'https://www.cnnindonesia.com/teknologi/20240430154940-185-1092338/bos-microsoft-puji-developer-ri-tumbuh-pesat-bisa-tembus-5-besar', 3);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `visitor_count`
+--
+
+CREATE TABLE `visitor_count` (
+  `id` int(11) NOT NULL,
+  `COUNT` int(11) DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `visitor_count`
+--
+
+INSERT INTO `visitor_count` (`id`, `COUNT`) VALUES
+(1, 5);
+
 --
 -- Indexes for dumped tables
 --
@@ -91,6 +109,12 @@ ALTER TABLE `posts`
   ADD KEY `category_id` (`category_id`);
 
 --
+-- Indexes for table `visitor_count`
+--
+ALTER TABLE `visitor_count`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -105,6 +129,12 @@ ALTER TABLE `categories`
 --
 ALTER TABLE `posts`
   MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT for table `visitor_count`
+--
+ALTER TABLE `visitor_count`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Constraints for dumped tables
