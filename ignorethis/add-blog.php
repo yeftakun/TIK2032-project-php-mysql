@@ -48,6 +48,22 @@ function uploadImage() {
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve data from form
+    $password = $_POST['password'];
+
+    // Check if password matches
+    $query_password = "SELECT pass FROM password WHERE id = 1";
+    $stmt_password = $conn->query($query_password);
+    $stored_password = $stmt_password->fetchColumn();
+
+    if ($password != $stored_password) {
+        echo "<script>alert('Password salah');</script>";
+        // You can add additional handling here, such as redirecting back to the form
+        exit(); // Stop further execution
+    }
+
+    // Continue processing the form if password matches
+
+    // Retrieve other data from form
     $title = $_POST['title'];
     $author = $_POST['author'];
     $sourceLink = $_POST['source_link'];
@@ -77,6 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $stmt->errorInfo()[2];
     }
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -118,7 +135,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <label for="content">Content:</label><br>
         <textarea id="content" name="content" rows="5" required></textarea><br><br>
-        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
         <input type="submit" value="Post">
     </form>
 </body>
